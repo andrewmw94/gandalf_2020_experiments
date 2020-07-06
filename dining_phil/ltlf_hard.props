@@ -1,0 +1,1 @@
+Pmax =? [((F "eat1") & (F "eat2")) | ((((("eat1" U "eat2") U "eat3") U "eat4") U "eat5") | ("eat1" U ("eat2" U ("eat3" U ("eat4" U "eat5")))))];

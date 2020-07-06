@@ -1,0 +1,1591 @@
+MONA v1.4-17 for WS1S/WS2S
+Copyright (C) 1997-2013 Aarhus University
+
+PARSING
+Time: 00:00:00.00
+
+CODE GENERATION
+DAG hits: 1231, nodes: 72
+Time: 00:00:00.00
+
+REDUCTION
+Projections removed: 1 (of 9)
+Products removed: 4 (of 42)
+Other nodes removed: 1 (of 20)
+DAG nodes after reduction: 65
+Time: 00:00:00.00
+
+AUTOMATON CONSTRUCTION
+                                                                            1% completed (1 automata in memory, 0MB memory used)                                                                            3% completed (2 automata in memory, 0MB memory used)                                                                            4% completed (4 automata in memory, 0MB memory used)                                                                            6% completed (4 automata in memory, 0MB memory used)                                                                            7% completed (4 automata in memory, 0MB memory used)                                                                            9% completed (4 automata in memory, 0MB memory used)                                                                            10% completed (5 automata in memory, 0MB memory used)                                                                            12% completed (5 automata in memory, 0MB memory used)                                                                            13% completed (5 automata in memory, 0MB memory used)                                                                            15% completed (5 automata in memory, 0MB memory used)                                                                            16% completed (4 automata in memory, 0MB memory used)                                                                            18% completed (4 automata in memory, 0MB memory used)                                                                            20% completed (4 automata in memory, 0MB memory used)                                                                            21% completed (4 automata in memory, 0MB memory used)                                                                            23% completed (4 automata in memory, 0MB memory used)                                                                            24% completed (5 automata in memory, 0MB memory used)                                                                            26% completed (5 automata in memory, 0MB memory used)                                                                            27% completed (5 automata in memory, 0MB memory used)                                                                            29% completed (5 automata in memory, 0MB memory used)                                                                            30% completed (5 automata in memory, 0MB memory used)                                                                            32% completed (5 automata in memory, 0MB memory used)                                                                            33% completed (5 automata in memory, 0MB memory used)                                                                            35% completed (5 automata in memory, 0MB memory used)                                                                            36% completed (5 automata in memory, 0MB memory used)                                                                            38% completed (5 automata in memory, 0MB memory used)                                                                            40% completed (6 automata in memory, 0MB memory used)                                                                            41% completed (6 automata in memory, 0MB memory used)                                                                            43% completed (5 automata in memory, 0MB memory used)                                                                            44% completed (5 automata in memory, 0MB memory used)                                                                            46% completed (5 automata in memory, 0MB memory used)                                                                            47% completed (5 automata in memory, 0MB memory used)                                                                            49% completed (5 automata in memory, 0MB memory used)                                                                            50% completed (4 automata in memory, 0MB memory used)                                                                            52% completed (4 automata in memory, 0MB memory used)                                                                            53% completed (4 automata in memory, 0MB memory used)                                                                            55% completed (4 automata in memory, 0MB memory used)                                                                            56% completed (4 automata in memory, 0MB memory used)                                                                            58% completed (4 automata in memory, 0MB memory used)                                                                            60% completed (5 automata in memory, 0MB memory used)                                                                            61% completed (6 automata in memory, 0MB memory used)                                                                            63% completed (6 automata in memory, 0MB memory used)                                                                            64% completed (5 automata in memory, 0MB memory used)                                                                            66% completed (5 automata in memory, 0MB memory used)                                                                            67% completed (5 automata in memory, 0MB memory used)                                                                            69% completed (5 automata in memory, 0MB memory used)                                                                            70% completed (6 automata in memory, 0MB memory used)                                                                            72% completed (6 automata in memory, 0MB memory used)                                                                            73% completed (6 automata in memory, 0MB memory used)                                                                            75% completed (7 automata in memory, 0MB memory used)                                                                            76% completed (6 automata in memory, 0MB memory used)                                                                            78% completed (6 automata in memory, 0MB memory used)                                                                            80% completed (6 automata in memory, 0MB memory used)                                                                            81% completed (7 automata in memory, 0MB memory used)                                                                            83% completed (6 automata in memory, 0MB memory used)                                                                            84% completed (6 automata in memory, 0MB memory used)                                                                            86% completed (5 automata in memory, 0MB memory used)                                                                            87% completed (5 automata in memory, 0MB memory used)                                                                            89% completed (5 automata in memory, 0MB memory used)                                                                            90% completed (5 automata in memory, 0MB memory used)                                                                            92% completed (5 automata in memory, 0MB memory used)                                                                            93% completed (5 automata in memory, 0MB memory used)                                                                            95% completed (4 automata in memory, 0MB memory used)                                                                            96% completed (3 automata in memory, 0MB memory used)                                                                            98% completed (2 automata in memory, 0MB memory used)                                                                            100% completed                                                                         
+Time: 00:00:00.00
+
+DFA for formula with free variables: P0 P1 P2 P3 P4 P5 P6 P7 P8 P9 
+Initial state: 0
+Accepting states: 8 27 28 29 30 31 32 33 34 35 36 37 38 43 44 45 46 47 48 50 52 54 56 57 58 59 60 61 62 63 64 65 66 
+Rejecting states: 0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 39 40 41 42 49 51 53 55 
+
+Automaton has 67 states and 467 BDD-nodes
+Transitions:
+State 0: XXXXXXXXXX -> state 1
+State 1: 00X000XXX0 -> state 2
+State 1: 00X000XXX1 -> state 3
+State 1: 00X0010XX0 -> state 4
+State 1: 00X0010XX1 -> state 5
+State 1: 00X0011XX0 -> state 6
+State 1: 00X0011XX1 -> state 7
+State 1: 00X01XXXXX -> state 8
+State 1: 00X100XXX0 -> state 9
+State 1: 00X100XXX1 -> state 10
+State 1: 00X1010XX0 -> state 11
+State 1: 00X1010XX1 -> state 12
+State 1: 00X1011XX0 -> state 13
+State 1: 00X1011XX1 -> state 14
+State 1: 00X11XXXXX -> state 8
+State 1: 01X000XXX0 -> state 15
+State 1: 01X000XXX1 -> state 16
+State 1: 01X0010XX0 -> state 17
+State 1: 01X0010XX1 -> state 18
+State 1: 01X0011XX0 -> state 19
+State 1: 01X0011XX1 -> state 20
+State 1: 01X01XXXXX -> state 8
+State 1: 01X100XXX0 -> state 21
+State 1: 01X100XXX1 -> state 22
+State 1: 01X1010XX0 -> state 23
+State 1: 01X1010XX1 -> state 24
+State 1: 01X1011XX0 -> state 25
+State 1: 01X1011XX1 -> state 26
+State 1: 01X11XXXXX -> state 8
+State 1: 10X000XXX0 -> state 2
+State 1: 10X000XXX1 -> state 3
+State 1: 10X0010XX0 -> state 4
+State 1: 10X0010XX1 -> state 5
+State 1: 10X0011XX0 -> state 6
+State 1: 10X0011XX1 -> state 7
+State 1: 10X01XXXXX -> state 8
+State 1: 10X100XXX0 -> state 9
+State 1: 10X100XXX1 -> state 10
+State 1: 10X1010XX0 -> state 11
+State 1: 10X1010XX1 -> state 12
+State 1: 10X1011XX0 -> state 13
+State 1: 10X1011XX1 -> state 14
+State 1: 10X11XXXXX -> state 8
+State 1: 11X000XXX0 -> state 27
+State 1: 11X000XXX1 -> state 28
+State 1: 11X0010XX0 -> state 29
+State 1: 11X0010XX1 -> state 30
+State 1: 11X0011XX0 -> state 31
+State 1: 11X0011XX1 -> state 32
+State 1: 11X01XXXXX -> state 8
+State 1: 11X100XXX0 -> state 33
+State 1: 11X100XXX1 -> state 34
+State 1: 11X1010XX0 -> state 35
+State 1: 11X1010XX1 -> state 36
+State 1: 11X1011XX0 -> state 37
+State 1: 11X1011XX1 -> state 38
+State 1: 11X11XXXXX -> state 8
+State 2: 000X0XXXXX -> state 39
+State 2: 000X1XXXXX -> state 8
+State 2: 00100XXXXX -> state 40
+State 2: 00101XXXXX -> state 8
+State 2: 0011XXXXXX -> state 8
+State 2: 010X0XXXXX -> state 41
+State 2: 010X1XXXXX -> state 8
+State 2: 01100XXXXX -> state 42
+State 2: 01101XXXXX -> state 8
+State 2: 0111XXXXXX -> state 8
+State 2: 100X0XXXXX -> state 39
+State 2: 100X1XXXXX -> state 8
+State 2: 10100XXXXX -> state 40
+State 2: 10101XXXXX -> state 8
+State 2: 1011XXXXXX -> state 8
+State 2: 110X0XXXXX -> state 43
+State 2: 110X1XXXXX -> state 8
+State 2: 11100XXXXX -> state 44
+State 2: 11101XXXXX -> state 8
+State 2: 1111XXXXXX -> state 8
+State 3: 000X0XXX0X -> state 39
+State 3: 000X0XXX10 -> state 39
+State 3: 000X0XXX11 -> state 45
+State 3: 000X1XXXXX -> state 8
+State 3: 00100XXX0X -> state 40
+State 3: 00100XXX10 -> state 40
+State 3: 00100XXX11 -> state 46
+State 3: 00101XXXXX -> state 8
+State 3: 0011XXXXXX -> state 8
+State 3: 010X0XXX0X -> state 41
+State 3: 010X0XXX10 -> state 41
+State 3: 010X0XXX11 -> state 47
+State 3: 010X1XXXXX -> state 8
+State 3: 01100XXX0X -> state 42
+State 3: 01100XXX10 -> state 42
+State 3: 01100XXX11 -> state 48
+State 3: 01101XXXXX -> state 8
+State 3: 0111XXXXXX -> state 8
+State 3: 100X0XXX0X -> state 39
+State 3: 100X0XXX10 -> state 39
+State 3: 100X0XXX11 -> state 45
+State 3: 100X1XXXXX -> state 8
+State 3: 10100XXX0X -> state 40
+State 3: 10100XXX10 -> state 40
+State 3: 10100XXX11 -> state 46
+State 3: 10101XXXXX -> state 8
+State 3: 1011XXXXXX -> state 8
+State 3: 110X0XXX0X -> state 43
+State 3: 110X0XXX10 -> state 43
+State 3: 110X0XXX11 -> state 47
+State 3: 110X1XXXXX -> state 8
+State 3: 11100XXX0X -> state 44
+State 3: 11100XXX10 -> state 44
+State 3: 11100XXX11 -> state 48
+State 3: 11101XXXXX -> state 8
+State 3: 1111XXXXXX -> state 8
+State 4: 000X00XXXX -> state 39
+State 4: 000X0100XX -> state 39
+State 4: 000X0101XX -> state 49
+State 4: 000X0110XX -> state 39
+State 4: 000X0111XX -> state 50
+State 4: 000X1XXXXX -> state 8
+State 4: 001000XXXX -> state 40
+State 4: 00100100XX -> state 40
+State 4: 00100101XX -> state 51
+State 4: 00100110XX -> state 40
+State 4: 00100111XX -> state 52
+State 4: 00101XXXXX -> state 8
+State 4: 0011XXXXXX -> state 8
+State 4: 010X00XXXX -> state 41
+State 4: 010X0100XX -> state 41
+State 4: 010X0101XX -> state 53
+State 4: 010X0110XX -> state 41
+State 4: 010X0111XX -> state 54
+State 4: 010X1XXXXX -> state 8
+State 4: 011000XXXX -> state 42
+State 4: 01100100XX -> state 42
+State 4: 01100101XX -> state 55
+State 4: 01100110XX -> state 42
+State 4: 01100111XX -> state 56
+State 4: 01101XXXXX -> state 8
+State 4: 0111XXXXXX -> state 8
+State 4: 100X00XXXX -> state 39
+State 4: 100X0100XX -> state 39
+State 4: 100X0101XX -> state 49
+State 4: 100X0110XX -> state 39
+State 4: 100X0111XX -> state 50
+State 4: 100X1XXXXX -> state 8
+State 4: 101000XXXX -> state 40
+State 4: 10100100XX -> state 40
+State 4: 10100101XX -> state 51
+State 4: 10100110XX -> state 40
+State 4: 10100111XX -> state 52
+State 4: 10101XXXXX -> state 8
+State 4: 1011XXXXXX -> state 8
+State 4: 110X00XXXX -> state 43
+State 4: 110X0100XX -> state 43
+State 4: 110X0101XX -> state 57
+State 4: 110X0110XX -> state 43
+State 4: 110X0111XX -> state 54
+State 4: 110X1XXXXX -> state 8
+State 4: 111000XXXX -> state 44
+State 4: 11100100XX -> state 44
+State 4: 11100101XX -> state 58
+State 4: 11100110XX -> state 44
+State 4: 11100111XX -> state 56
+State 4: 11101XXXXX -> state 8
+State 4: 1111XXXXXX -> state 8
+State 5: 000X00XX0X -> state 39
+State 5: 000X00XX10 -> state 39
+State 5: 000X00XX11 -> state 45
+State 5: 000X01000X -> state 39
+State 5: 000X010010 -> state 39
+State 5: 000X010011 -> state 45
+State 5: 000X01010X -> state 49
+State 5: 000X010110 -> state 49
+State 5: 000X010111 -> state 59
+State 5: 000X01100X -> state 39
+State 5: 000X011010 -> state 39
+State 5: 000X011011 -> state 45
+State 5: 000X01110X -> state 50
+State 5: 000X011110 -> state 50
+State 5: 000X011111 -> state 60
+State 5: 000X1XXXXX -> state 8
+State 5: 001000XX0X -> state 40
+State 5: 001000XX10 -> state 40
+State 5: 001000XX11 -> state 46
+State 5: 001001000X -> state 40
+State 5: 0010010010 -> state 40
+State 5: 0010010011 -> state 46
+State 5: 001001010X -> state 51
+State 5: 0010010110 -> state 51
+State 5: 0010010111 -> state 61
+State 5: 001001100X -> state 40
+State 5: 0010011010 -> state 40
+State 5: 0010011011 -> state 46
+State 5: 001001110X -> state 52
+State 5: 0010011110 -> state 52
+State 5: 0010011111 -> state 62
+State 5: 00101XXXXX -> state 8
+State 5: 0011XXXXXX -> state 8
+State 5: 010X00XX0X -> state 41
+State 5: 010X00XX10 -> state 41
+State 5: 010X00XX11 -> state 47
+State 5: 010X01000X -> state 41
+State 5: 010X010010 -> state 41
+State 5: 010X010011 -> state 47
+State 5: 010X01010X -> state 53
+State 5: 010X010110 -> state 53
+State 5: 010X010111 -> state 63
+State 5: 010X01100X -> state 41
+State 5: 010X011010 -> state 41
+State 5: 010X011011 -> state 47
+State 5: 010X01110X -> state 54
+State 5: 010X011110 -> state 54
+State 5: 010X011111 -> state 64
+State 5: 010X1XXXXX -> state 8
+State 5: 011000XX0X -> state 42
+State 5: 011000XX10 -> state 42
+State 5: 011000XX11 -> state 48
+State 5: 011001000X -> state 42
+State 5: 0110010010 -> state 42
+State 5: 0110010011 -> state 48
+State 5: 011001010X -> state 55
+State 5: 0110010110 -> state 55
+State 5: 0110010111 -> state 65
+State 5: 011001100X -> state 42
+State 5: 0110011010 -> state 42
+State 5: 0110011011 -> state 48
+State 5: 011001110X -> state 56
+State 5: 0110011110 -> state 56
+State 5: 0110011111 -> state 66
+State 5: 01101XXXXX -> state 8
+State 5: 0111XXXXXX -> state 8
+State 5: 100X00XX0X -> state 39
+State 5: 100X00XX10 -> state 39
+State 5: 100X00XX11 -> state 45
+State 5: 100X01000X -> state 39
+State 5: 100X010010 -> state 39
+State 5: 100X010011 -> state 45
+State 5: 100X01010X -> state 49
+State 5: 100X010110 -> state 49
+State 5: 100X010111 -> state 59
+State 5: 100X01100X -> state 39
+State 5: 100X011010 -> state 39
+State 5: 100X011011 -> state 45
+State 5: 100X01110X -> state 50
+State 5: 100X011110 -> state 50
+State 5: 100X011111 -> state 60
+State 5: 100X1XXXXX -> state 8
+State 5: 101000XX0X -> state 40
+State 5: 101000XX10 -> state 40
+State 5: 101000XX11 -> state 46
+State 5: 101001000X -> state 40
+State 5: 1010010010 -> state 40
+State 5: 1010010011 -> state 46
+State 5: 101001010X -> state 51
+State 5: 1010010110 -> state 51
+State 5: 1010010111 -> state 61
+State 5: 101001100X -> state 40
+State 5: 1010011010 -> state 40
+State 5: 1010011011 -> state 46
+State 5: 101001110X -> state 52
+State 5: 1010011110 -> state 52
+State 5: 1010011111 -> state 62
+State 5: 10101XXXXX -> state 8
+State 5: 1011XXXXXX -> state 8
+State 5: 110X00XX0X -> state 43
+State 5: 110X00XX10 -> state 43
+State 5: 110X00XX11 -> state 47
+State 5: 110X01000X -> state 43
+State 5: 110X010010 -> state 43
+State 5: 110X010011 -> state 47
+State 5: 110X01010X -> state 57
+State 5: 110X010110 -> state 57
+State 5: 110X010111 -> state 63
+State 5: 110X01100X -> state 43
+State 5: 110X011010 -> state 43
+State 5: 110X011011 -> state 47
+State 5: 110X01110X -> state 54
+State 5: 110X011110 -> state 54
+State 5: 110X011111 -> state 64
+State 5: 110X1XXXXX -> state 8
+State 5: 111000XX0X -> state 44
+State 5: 111000XX10 -> state 44
+State 5: 111000XX11 -> state 48
+State 5: 111001000X -> state 44
+State 5: 1110010010 -> state 44
+State 5: 1110010011 -> state 48
+State 5: 111001010X -> state 58
+State 5: 1110010110 -> state 58
+State 5: 1110010111 -> state 65
+State 5: 111001100X -> state 44
+State 5: 1110011010 -> state 44
+State 5: 1110011011 -> state 48
+State 5: 111001110X -> state 56
+State 5: 1110011110 -> state 56
+State 5: 1110011111 -> state 66
+State 5: 11101XXXXX -> state 8
+State 5: 1111XXXXXX -> state 8
+State 6: 000X00XXXX -> state 39
+State 6: 000X01X0XX -> state 39
+State 6: 000X01X1XX -> state 50
+State 6: 000X1XXXXX -> state 8
+State 6: 001000XXXX -> state 40
+State 6: 001001X0XX -> state 40
+State 6: 001001X1XX -> state 52
+State 6: 00101XXXXX -> state 8
+State 6: 0011XXXXXX -> state 8
+State 6: 010X00XXXX -> state 41
+State 6: 010X01X0XX -> state 41
+State 6: 010X01X1XX -> state 54
+State 6: 010X1XXXXX -> state 8
+State 6: 011000XXXX -> state 42
+State 6: 011001X0XX -> state 42
+State 6: 011001X1XX -> state 56
+State 6: 01101XXXXX -> state 8
+State 6: 0111XXXXXX -> state 8
+State 6: 100X00XXXX -> state 39
+State 6: 100X01X0XX -> state 39
+State 6: 100X01X1XX -> state 50
+State 6: 100X1XXXXX -> state 8
+State 6: 101000XXXX -> state 40
+State 6: 101001X0XX -> state 40
+State 6: 101001X1XX -> state 52
+State 6: 10101XXXXX -> state 8
+State 6: 1011XXXXXX -> state 8
+State 6: 110X00XXXX -> state 43
+State 6: 110X01X0XX -> state 43
+State 6: 110X01X1XX -> state 54
+State 6: 110X1XXXXX -> state 8
+State 6: 111000XXXX -> state 44
+State 6: 111001X0XX -> state 44
+State 6: 111001X1XX -> state 56
+State 6: 11101XXXXX -> state 8
+State 6: 1111XXXXXX -> state 8
+State 7: 000X00XX0X -> state 39
+State 7: 000X00XX10 -> state 39
+State 7: 000X00XX11 -> state 45
+State 7: 000X01X00X -> state 39
+State 7: 000X01X010 -> state 39
+State 7: 000X01X011 -> state 45
+State 7: 000X01X10X -> state 50
+State 7: 000X01X110 -> state 50
+State 7: 000X01X111 -> state 60
+State 7: 000X1XXXXX -> state 8
+State 7: 001000XX0X -> state 40
+State 7: 001000XX10 -> state 40
+State 7: 001000XX11 -> state 46
+State 7: 001001X00X -> state 40
+State 7: 001001X010 -> state 40
+State 7: 001001X011 -> state 46
+State 7: 001001X10X -> state 52
+State 7: 001001X110 -> state 52
+State 7: 001001X111 -> state 62
+State 7: 00101XXXXX -> state 8
+State 7: 0011XXXXXX -> state 8
+State 7: 010X00XX0X -> state 41
+State 7: 010X00XX10 -> state 41
+State 7: 010X00XX11 -> state 47
+State 7: 010X01X00X -> state 41
+State 7: 010X01X010 -> state 41
+State 7: 010X01X011 -> state 47
+State 7: 010X01X10X -> state 54
+State 7: 010X01X110 -> state 54
+State 7: 010X01X111 -> state 64
+State 7: 010X1XXXXX -> state 8
+State 7: 011000XX0X -> state 42
+State 7: 011000XX10 -> state 42
+State 7: 011000XX11 -> state 48
+State 7: 011001X00X -> state 42
+State 7: 011001X010 -> state 42
+State 7: 011001X011 -> state 48
+State 7: 011001X10X -> state 56
+State 7: 011001X110 -> state 56
+State 7: 011001X111 -> state 66
+State 7: 01101XXXXX -> state 8
+State 7: 0111XXXXXX -> state 8
+State 7: 100X00XX0X -> state 39
+State 7: 100X00XX10 -> state 39
+State 7: 100X00XX11 -> state 45
+State 7: 100X01X00X -> state 39
+State 7: 100X01X010 -> state 39
+State 7: 100X01X011 -> state 45
+State 7: 100X01X10X -> state 50
+State 7: 100X01X110 -> state 50
+State 7: 100X01X111 -> state 60
+State 7: 100X1XXXXX -> state 8
+State 7: 101000XX0X -> state 40
+State 7: 101000XX10 -> state 40
+State 7: 101000XX11 -> state 46
+State 7: 101001X00X -> state 40
+State 7: 101001X010 -> state 40
+State 7: 101001X011 -> state 46
+State 7: 101001X10X -> state 52
+State 7: 101001X110 -> state 52
+State 7: 101001X111 -> state 62
+State 7: 10101XXXXX -> state 8
+State 7: 1011XXXXXX -> state 8
+State 7: 110X00XX0X -> state 43
+State 7: 110X00XX10 -> state 43
+State 7: 110X00XX11 -> state 47
+State 7: 110X01X00X -> state 43
+State 7: 110X01X010 -> state 43
+State 7: 110X01X011 -> state 47
+State 7: 110X01X10X -> state 54
+State 7: 110X01X110 -> state 54
+State 7: 110X01X111 -> state 64
+State 7: 110X1XXXXX -> state 8
+State 7: 111000XX0X -> state 44
+State 7: 111000XX10 -> state 44
+State 7: 111000XX11 -> state 48
+State 7: 111001X00X -> state 44
+State 7: 111001X010 -> state 44
+State 7: 111001X011 -> state 48
+State 7: 111001X10X -> state 56
+State 7: 111001X110 -> state 56
+State 7: 111001X111 -> state 66
+State 7: 11101XXXXX -> state 8
+State 7: 1111XXXXXX -> state 8
+State 8: XXXXXXXXXX -> state 8
+State 9: 000X0XXXXX -> state 39
+State 9: 000X1XXXXX -> state 8
+State 9: 001XXXXXXX -> state 8
+State 9: 010X0XXXXX -> state 41
+State 9: 010X1XXXXX -> state 8
+State 9: 011XXXXXXX -> state 8
+State 9: 100X0XXXXX -> state 39
+State 9: 100X1XXXXX -> state 8
+State 9: 101XXXXXXX -> state 8
+State 9: 110X0XXXXX -> state 43
+State 9: 110X1XXXXX -> state 8
+State 9: 111XXXXXXX -> state 8
+State 10: 000X0XXX0X -> state 39
+State 10: 000X0XXX10 -> state 39
+State 10: 000X0XXX11 -> state 45
+State 10: 000X1XXXXX -> state 8
+State 10: 001XXXXXXX -> state 8
+State 10: 010X0XXX0X -> state 41
+State 10: 010X0XXX10 -> state 41
+State 10: 010X0XXX11 -> state 47
+State 10: 010X1XXXXX -> state 8
+State 10: 011XXXXXXX -> state 8
+State 10: 100X0XXX0X -> state 39
+State 10: 100X0XXX10 -> state 39
+State 10: 100X0XXX11 -> state 45
+State 10: 100X1XXXXX -> state 8
+State 10: 101XXXXXXX -> state 8
+State 10: 110X0XXX0X -> state 43
+State 10: 110X0XXX10 -> state 43
+State 10: 110X0XXX11 -> state 47
+State 10: 110X1XXXXX -> state 8
+State 10: 111XXXXXXX -> state 8
+State 11: 000X00XXXX -> state 39
+State 11: 000X0100XX -> state 39
+State 11: 000X0101XX -> state 49
+State 11: 000X0110XX -> state 39
+State 11: 000X0111XX -> state 50
+State 11: 000X1XXXXX -> state 8
+State 11: 001XXXXXXX -> state 8
+State 11: 010X00XXXX -> state 41
+State 11: 010X0100XX -> state 41
+State 11: 010X0101XX -> state 53
+State 11: 010X0110XX -> state 41
+State 11: 010X0111XX -> state 54
+State 11: 010X1XXXXX -> state 8
+State 11: 011XXXXXXX -> state 8
+State 11: 100X00XXXX -> state 39
+State 11: 100X0100XX -> state 39
+State 11: 100X0101XX -> state 49
+State 11: 100X0110XX -> state 39
+State 11: 100X0111XX -> state 50
+State 11: 100X1XXXXX -> state 8
+State 11: 101XXXXXXX -> state 8
+State 11: 110X00XXXX -> state 43
+State 11: 110X0100XX -> state 43
+State 11: 110X0101XX -> state 57
+State 11: 110X0110XX -> state 43
+State 11: 110X0111XX -> state 54
+State 11: 110X1XXXXX -> state 8
+State 11: 111XXXXXXX -> state 8
+State 12: 000X00XX0X -> state 39
+State 12: 000X00XX10 -> state 39
+State 12: 000X00XX11 -> state 45
+State 12: 000X01000X -> state 39
+State 12: 000X010010 -> state 39
+State 12: 000X010011 -> state 45
+State 12: 000X01010X -> state 49
+State 12: 000X010110 -> state 49
+State 12: 000X010111 -> state 59
+State 12: 000X01100X -> state 39
+State 12: 000X011010 -> state 39
+State 12: 000X011011 -> state 45
+State 12: 000X01110X -> state 50
+State 12: 000X011110 -> state 50
+State 12: 000X011111 -> state 60
+State 12: 000X1XXXXX -> state 8
+State 12: 001XXXXXXX -> state 8
+State 12: 010X00XX0X -> state 41
+State 12: 010X00XX10 -> state 41
+State 12: 010X00XX11 -> state 47
+State 12: 010X01000X -> state 41
+State 12: 010X010010 -> state 41
+State 12: 010X010011 -> state 47
+State 12: 010X01010X -> state 53
+State 12: 010X010110 -> state 53
+State 12: 010X010111 -> state 63
+State 12: 010X01100X -> state 41
+State 12: 010X011010 -> state 41
+State 12: 010X011011 -> state 47
+State 12: 010X01110X -> state 54
+State 12: 010X011110 -> state 54
+State 12: 010X011111 -> state 64
+State 12: 010X1XXXXX -> state 8
+State 12: 011XXXXXXX -> state 8
+State 12: 100X00XX0X -> state 39
+State 12: 100X00XX10 -> state 39
+State 12: 100X00XX11 -> state 45
+State 12: 100X01000X -> state 39
+State 12: 100X010010 -> state 39
+State 12: 100X010011 -> state 45
+State 12: 100X01010X -> state 49
+State 12: 100X010110 -> state 49
+State 12: 100X010111 -> state 59
+State 12: 100X01100X -> state 39
+State 12: 100X011010 -> state 39
+State 12: 100X011011 -> state 45
+State 12: 100X01110X -> state 50
+State 12: 100X011110 -> state 50
+State 12: 100X011111 -> state 60
+State 12: 100X1XXXXX -> state 8
+State 12: 101XXXXXXX -> state 8
+State 12: 110X00XX0X -> state 43
+State 12: 110X00XX10 -> state 43
+State 12: 110X00XX11 -> state 47
+State 12: 110X01000X -> state 43
+State 12: 110X010010 -> state 43
+State 12: 110X010011 -> state 47
+State 12: 110X01010X -> state 57
+State 12: 110X010110 -> state 57
+State 12: 110X010111 -> state 63
+State 12: 110X01100X -> state 43
+State 12: 110X011010 -> state 43
+State 12: 110X011011 -> state 47
+State 12: 110X01110X -> state 54
+State 12: 110X011110 -> state 54
+State 12: 110X011111 -> state 64
+State 12: 110X1XXXXX -> state 8
+State 12: 111XXXXXXX -> state 8
+State 13: 000X00XXXX -> state 39
+State 13: 000X01X0XX -> state 39
+State 13: 000X01X1XX -> state 50
+State 13: 000X1XXXXX -> state 8
+State 13: 001XXXXXXX -> state 8
+State 13: 010X00XXXX -> state 41
+State 13: 010X01X0XX -> state 41
+State 13: 010X01X1XX -> state 54
+State 13: 010X1XXXXX -> state 8
+State 13: 011XXXXXXX -> state 8
+State 13: 100X00XXXX -> state 39
+State 13: 100X01X0XX -> state 39
+State 13: 100X01X1XX -> state 50
+State 13: 100X1XXXXX -> state 8
+State 13: 101XXXXXXX -> state 8
+State 13: 110X00XXXX -> state 43
+State 13: 110X01X0XX -> state 43
+State 13: 110X01X1XX -> state 54
+State 13: 110X1XXXXX -> state 8
+State 13: 111XXXXXXX -> state 8
+State 14: 000X00XX0X -> state 39
+State 14: 000X00XX10 -> state 39
+State 14: 000X00XX11 -> state 45
+State 14: 000X01X00X -> state 39
+State 14: 000X01X010 -> state 39
+State 14: 000X01X011 -> state 45
+State 14: 000X01X10X -> state 50
+State 14: 000X01X110 -> state 50
+State 14: 000X01X111 -> state 60
+State 14: 000X1XXXXX -> state 8
+State 14: 001XXXXXXX -> state 8
+State 14: 010X00XX0X -> state 41
+State 14: 010X00XX10 -> state 41
+State 14: 010X00XX11 -> state 47
+State 14: 010X01X00X -> state 41
+State 14: 010X01X010 -> state 41
+State 14: 010X01X011 -> state 47
+State 14: 010X01X10X -> state 54
+State 14: 010X01X110 -> state 54
+State 14: 010X01X111 -> state 64
+State 14: 010X1XXXXX -> state 8
+State 14: 011XXXXXXX -> state 8
+State 14: 100X00XX0X -> state 39
+State 14: 100X00XX10 -> state 39
+State 14: 100X00XX11 -> state 45
+State 14: 100X01X00X -> state 39
+State 14: 100X01X010 -> state 39
+State 14: 100X01X011 -> state 45
+State 14: 100X01X10X -> state 50
+State 14: 100X01X110 -> state 50
+State 14: 100X01X111 -> state 60
+State 14: 100X1XXXXX -> state 8
+State 14: 101XXXXXXX -> state 8
+State 14: 110X00XX0X -> state 43
+State 14: 110X00XX10 -> state 43
+State 14: 110X00XX11 -> state 47
+State 14: 110X01X00X -> state 43
+State 14: 110X01X010 -> state 43
+State 14: 110X01X011 -> state 47
+State 14: 110X01X10X -> state 54
+State 14: 110X01X110 -> state 54
+State 14: 110X01X111 -> state 64
+State 14: 110X1XXXXX -> state 8
+State 14: 111XXXXXXX -> state 8
+State 15: 0X0X0XXXXX -> state 41
+State 15: 0X0X1XXXXX -> state 8
+State 15: 0X100XXXXX -> state 42
+State 15: 0X101XXXXX -> state 8
+State 15: 0X11XXXXXX -> state 8
+State 15: 1X0X0XXXXX -> state 43
+State 15: 1X0X1XXXXX -> state 8
+State 15: 1X100XXXXX -> state 44
+State 15: 1X101XXXXX -> state 8
+State 15: 1X11XXXXXX -> state 8
+State 16: 0X0X0XXX0X -> state 41
+State 16: 0X0X0XXX10 -> state 41
+State 16: 0X0X0XXX11 -> state 47
+State 16: 0X0X1XXXXX -> state 8
+State 16: 0X100XXX0X -> state 42
+State 16: 0X100XXX10 -> state 42
+State 16: 0X100XXX11 -> state 48
+State 16: 0X101XXXXX -> state 8
+State 16: 0X11XXXXXX -> state 8
+State 16: 1X0X0XXX0X -> state 43
+State 16: 1X0X0XXX10 -> state 43
+State 16: 1X0X0XXX11 -> state 47
+State 16: 1X0X1XXXXX -> state 8
+State 16: 1X100XXX0X -> state 44
+State 16: 1X100XXX10 -> state 44
+State 16: 1X100XXX11 -> state 48
+State 16: 1X101XXXXX -> state 8
+State 16: 1X11XXXXXX -> state 8
+State 17: 0X0X00XXXX -> state 41
+State 17: 0X0X0100XX -> state 41
+State 17: 0X0X0101XX -> state 53
+State 17: 0X0X0110XX -> state 41
+State 17: 0X0X0111XX -> state 54
+State 17: 0X0X1XXXXX -> state 8
+State 17: 0X1000XXXX -> state 42
+State 17: 0X100100XX -> state 42
+State 17: 0X100101XX -> state 55
+State 17: 0X100110XX -> state 42
+State 17: 0X100111XX -> state 56
+State 17: 0X101XXXXX -> state 8
+State 17: 0X11XXXXXX -> state 8
+State 17: 1X0X00XXXX -> state 43
+State 17: 1X0X0100XX -> state 43
+State 17: 1X0X0101XX -> state 57
+State 17: 1X0X0110XX -> state 43
+State 17: 1X0X0111XX -> state 54
+State 17: 1X0X1XXXXX -> state 8
+State 17: 1X1000XXXX -> state 44
+State 17: 1X100100XX -> state 44
+State 17: 1X100101XX -> state 58
+State 17: 1X100110XX -> state 44
+State 17: 1X100111XX -> state 56
+State 17: 1X101XXXXX -> state 8
+State 17: 1X11XXXXXX -> state 8
+State 18: 0X0X00XX0X -> state 41
+State 18: 0X0X00XX10 -> state 41
+State 18: 0X0X00XX11 -> state 47
+State 18: 0X0X01000X -> state 41
+State 18: 0X0X010010 -> state 41
+State 18: 0X0X010011 -> state 47
+State 18: 0X0X01010X -> state 53
+State 18: 0X0X010110 -> state 53
+State 18: 0X0X010111 -> state 63
+State 18: 0X0X01100X -> state 41
+State 18: 0X0X011010 -> state 41
+State 18: 0X0X011011 -> state 47
+State 18: 0X0X01110X -> state 54
+State 18: 0X0X011110 -> state 54
+State 18: 0X0X011111 -> state 64
+State 18: 0X0X1XXXXX -> state 8
+State 18: 0X1000XX0X -> state 42
+State 18: 0X1000XX10 -> state 42
+State 18: 0X1000XX11 -> state 48
+State 18: 0X1001000X -> state 42
+State 18: 0X10010010 -> state 42
+State 18: 0X10010011 -> state 48
+State 18: 0X1001010X -> state 55
+State 18: 0X10010110 -> state 55
+State 18: 0X10010111 -> state 65
+State 18: 0X1001100X -> state 42
+State 18: 0X10011010 -> state 42
+State 18: 0X10011011 -> state 48
+State 18: 0X1001110X -> state 56
+State 18: 0X10011110 -> state 56
+State 18: 0X10011111 -> state 66
+State 18: 0X101XXXXX -> state 8
+State 18: 0X11XXXXXX -> state 8
+State 18: 1X0X00XX0X -> state 43
+State 18: 1X0X00XX10 -> state 43
+State 18: 1X0X00XX11 -> state 47
+State 18: 1X0X01000X -> state 43
+State 18: 1X0X010010 -> state 43
+State 18: 1X0X010011 -> state 47
+State 18: 1X0X01010X -> state 57
+State 18: 1X0X010110 -> state 57
+State 18: 1X0X010111 -> state 63
+State 18: 1X0X01100X -> state 43
+State 18: 1X0X011010 -> state 43
+State 18: 1X0X011011 -> state 47
+State 18: 1X0X01110X -> state 54
+State 18: 1X0X011110 -> state 54
+State 18: 1X0X011111 -> state 64
+State 18: 1X0X1XXXXX -> state 8
+State 18: 1X1000XX0X -> state 44
+State 18: 1X1000XX10 -> state 44
+State 18: 1X1000XX11 -> state 48
+State 18: 1X1001000X -> state 44
+State 18: 1X10010010 -> state 44
+State 18: 1X10010011 -> state 48
+State 18: 1X1001010X -> state 58
+State 18: 1X10010110 -> state 58
+State 18: 1X10010111 -> state 65
+State 18: 1X1001100X -> state 44
+State 18: 1X10011010 -> state 44
+State 18: 1X10011011 -> state 48
+State 18: 1X1001110X -> state 56
+State 18: 1X10011110 -> state 56
+State 18: 1X10011111 -> state 66
+State 18: 1X101XXXXX -> state 8
+State 18: 1X11XXXXXX -> state 8
+State 19: 0X0X00XXXX -> state 41
+State 19: 0X0X01X0XX -> state 41
+State 19: 0X0X01X1XX -> state 54
+State 19: 0X0X1XXXXX -> state 8
+State 19: 0X1000XXXX -> state 42
+State 19: 0X1001X0XX -> state 42
+State 19: 0X1001X1XX -> state 56
+State 19: 0X101XXXXX -> state 8
+State 19: 0X11XXXXXX -> state 8
+State 19: 1X0X00XXXX -> state 43
+State 19: 1X0X01X0XX -> state 43
+State 19: 1X0X01X1XX -> state 54
+State 19: 1X0X1XXXXX -> state 8
+State 19: 1X1000XXXX -> state 44
+State 19: 1X1001X0XX -> state 44
+State 19: 1X1001X1XX -> state 56
+State 19: 1X101XXXXX -> state 8
+State 19: 1X11XXXXXX -> state 8
+State 20: 0X0X00XX0X -> state 41
+State 20: 0X0X00XX10 -> state 41
+State 20: 0X0X00XX11 -> state 47
+State 20: 0X0X01X00X -> state 41
+State 20: 0X0X01X010 -> state 41
+State 20: 0X0X01X011 -> state 47
+State 20: 0X0X01X10X -> state 54
+State 20: 0X0X01X110 -> state 54
+State 20: 0X0X01X111 -> state 64
+State 20: 0X0X1XXXXX -> state 8
+State 20: 0X1000XX0X -> state 42
+State 20: 0X1000XX10 -> state 42
+State 20: 0X1000XX11 -> state 48
+State 20: 0X1001X00X -> state 42
+State 20: 0X1001X010 -> state 42
+State 20: 0X1001X011 -> state 48
+State 20: 0X1001X10X -> state 56
+State 20: 0X1001X110 -> state 56
+State 20: 0X1001X111 -> state 66
+State 20: 0X101XXXXX -> state 8
+State 20: 0X11XXXXXX -> state 8
+State 20: 1X0X00XX0X -> state 43
+State 20: 1X0X00XX10 -> state 43
+State 20: 1X0X00XX11 -> state 47
+State 20: 1X0X01X00X -> state 43
+State 20: 1X0X01X010 -> state 43
+State 20: 1X0X01X011 -> state 47
+State 20: 1X0X01X10X -> state 54
+State 20: 1X0X01X110 -> state 54
+State 20: 1X0X01X111 -> state 64
+State 20: 1X0X1XXXXX -> state 8
+State 20: 1X1000XX0X -> state 44
+State 20: 1X1000XX10 -> state 44
+State 20: 1X1000XX11 -> state 48
+State 20: 1X1001X00X -> state 44
+State 20: 1X1001X010 -> state 44
+State 20: 1X1001X011 -> state 48
+State 20: 1X1001X10X -> state 56
+State 20: 1X1001X110 -> state 56
+State 20: 1X1001X111 -> state 66
+State 20: 1X101XXXXX -> state 8
+State 20: 1X11XXXXXX -> state 8
+State 21: 0X0X0XXXXX -> state 41
+State 21: 0X0X1XXXXX -> state 8
+State 21: 0X1XXXXXXX -> state 8
+State 21: 1X0X0XXXXX -> state 43
+State 21: 1X0X1XXXXX -> state 8
+State 21: 1X1XXXXXXX -> state 8
+State 22: 0X0X0XXX0X -> state 41
+State 22: 0X0X0XXX10 -> state 41
+State 22: 0X0X0XXX11 -> state 47
+State 22: 0X0X1XXXXX -> state 8
+State 22: 0X1XXXXXXX -> state 8
+State 22: 1X0X0XXX0X -> state 43
+State 22: 1X0X0XXX10 -> state 43
+State 22: 1X0X0XXX11 -> state 47
+State 22: 1X0X1XXXXX -> state 8
+State 22: 1X1XXXXXXX -> state 8
+State 23: 0X0X00XXXX -> state 41
+State 23: 0X0X0100XX -> state 41
+State 23: 0X0X0101XX -> state 53
+State 23: 0X0X0110XX -> state 41
+State 23: 0X0X0111XX -> state 54
+State 23: 0X0X1XXXXX -> state 8
+State 23: 0X1XXXXXXX -> state 8
+State 23: 1X0X00XXXX -> state 43
+State 23: 1X0X0100XX -> state 43
+State 23: 1X0X0101XX -> state 57
+State 23: 1X0X0110XX -> state 43
+State 23: 1X0X0111XX -> state 54
+State 23: 1X0X1XXXXX -> state 8
+State 23: 1X1XXXXXXX -> state 8
+State 24: 0X0X00XX0X -> state 41
+State 24: 0X0X00XX10 -> state 41
+State 24: 0X0X00XX11 -> state 47
+State 24: 0X0X01000X -> state 41
+State 24: 0X0X010010 -> state 41
+State 24: 0X0X010011 -> state 47
+State 24: 0X0X01010X -> state 53
+State 24: 0X0X010110 -> state 53
+State 24: 0X0X010111 -> state 63
+State 24: 0X0X01100X -> state 41
+State 24: 0X0X011010 -> state 41
+State 24: 0X0X011011 -> state 47
+State 24: 0X0X01110X -> state 54
+State 24: 0X0X011110 -> state 54
+State 24: 0X0X011111 -> state 64
+State 24: 0X0X1XXXXX -> state 8
+State 24: 0X1XXXXXXX -> state 8
+State 24: 1X0X00XX0X -> state 43
+State 24: 1X0X00XX10 -> state 43
+State 24: 1X0X00XX11 -> state 47
+State 24: 1X0X01000X -> state 43
+State 24: 1X0X010010 -> state 43
+State 24: 1X0X010011 -> state 47
+State 24: 1X0X01010X -> state 57
+State 24: 1X0X010110 -> state 57
+State 24: 1X0X010111 -> state 63
+State 24: 1X0X01100X -> state 43
+State 24: 1X0X011010 -> state 43
+State 24: 1X0X011011 -> state 47
+State 24: 1X0X01110X -> state 54
+State 24: 1X0X011110 -> state 54
+State 24: 1X0X011111 -> state 64
+State 24: 1X0X1XXXXX -> state 8
+State 24: 1X1XXXXXXX -> state 8
+State 25: 0X0X00XXXX -> state 41
+State 25: 0X0X01X0XX -> state 41
+State 25: 0X0X01X1XX -> state 54
+State 25: 0X0X1XXXXX -> state 8
+State 25: 0X1XXXXXXX -> state 8
+State 25: 1X0X00XXXX -> state 43
+State 25: 1X0X01X0XX -> state 43
+State 25: 1X0X01X1XX -> state 54
+State 25: 1X0X1XXXXX -> state 8
+State 25: 1X1XXXXXXX -> state 8
+State 26: 0X0X00XX0X -> state 41
+State 26: 0X0X00XX10 -> state 41
+State 26: 0X0X00XX11 -> state 47
+State 26: 0X0X01X00X -> state 41
+State 26: 0X0X01X010 -> state 41
+State 26: 0X0X01X011 -> state 47
+State 26: 0X0X01X10X -> state 54
+State 26: 0X0X01X110 -> state 54
+State 26: 0X0X01X111 -> state 64
+State 26: 0X0X1XXXXX -> state 8
+State 26: 0X1XXXXXXX -> state 8
+State 26: 1X0X00XX0X -> state 43
+State 26: 1X0X00XX10 -> state 43
+State 26: 1X0X00XX11 -> state 47
+State 26: 1X0X01X00X -> state 43
+State 26: 1X0X01X010 -> state 43
+State 26: 1X0X01X011 -> state 47
+State 26: 1X0X01X10X -> state 54
+State 26: 1X0X01X110 -> state 54
+State 26: 1X0X01X111 -> state 64
+State 26: 1X0X1XXXXX -> state 8
+State 26: 1X1XXXXXXX -> state 8
+State 27: 0X0X0XXXXX -> state 41
+State 27: 0X0X1XXXXX -> state 8
+State 27: 0X100XXXXX -> state 42
+State 27: 0X101XXXXX -> state 8
+State 27: 0X11XXXXXX -> state 8
+State 27: 1X0X0XXXXX -> state 43
+State 27: 1X0X1XXXXX -> state 8
+State 27: 1X100XXXXX -> state 44
+State 27: 1X101XXXXX -> state 8
+State 27: 1X11XXXXXX -> state 8
+State 28: 0X0X0XXX0X -> state 41
+State 28: 0X0X0XXX10 -> state 41
+State 28: 0X0X0XXX11 -> state 47
+State 28: 0X0X1XXXXX -> state 8
+State 28: 0X100XXX0X -> state 42
+State 28: 0X100XXX10 -> state 42
+State 28: 0X100XXX11 -> state 48
+State 28: 0X101XXXXX -> state 8
+State 28: 0X11XXXXXX -> state 8
+State 28: 1X0X0XXX0X -> state 43
+State 28: 1X0X0XXX10 -> state 43
+State 28: 1X0X0XXX11 -> state 47
+State 28: 1X0X1XXXXX -> state 8
+State 28: 1X100XXX0X -> state 44
+State 28: 1X100XXX10 -> state 44
+State 28: 1X100XXX11 -> state 48
+State 28: 1X101XXXXX -> state 8
+State 28: 1X11XXXXXX -> state 8
+State 29: 0X0X00XXXX -> state 41
+State 29: 0X0X0100XX -> state 41
+State 29: 0X0X0101XX -> state 53
+State 29: 0X0X0110XX -> state 41
+State 29: 0X0X0111XX -> state 54
+State 29: 0X0X1XXXXX -> state 8
+State 29: 0X1000XXXX -> state 42
+State 29: 0X100100XX -> state 42
+State 29: 0X100101XX -> state 55
+State 29: 0X100110XX -> state 42
+State 29: 0X100111XX -> state 56
+State 29: 0X101XXXXX -> state 8
+State 29: 0X11XXXXXX -> state 8
+State 29: 1X0X00XXXX -> state 43
+State 29: 1X0X0100XX -> state 43
+State 29: 1X0X0101XX -> state 57
+State 29: 1X0X0110XX -> state 43
+State 29: 1X0X0111XX -> state 54
+State 29: 1X0X1XXXXX -> state 8
+State 29: 1X1000XXXX -> state 44
+State 29: 1X100100XX -> state 44
+State 29: 1X100101XX -> state 58
+State 29: 1X100110XX -> state 44
+State 29: 1X100111XX -> state 56
+State 29: 1X101XXXXX -> state 8
+State 29: 1X11XXXXXX -> state 8
+State 30: 0X0X00XX0X -> state 41
+State 30: 0X0X00XX10 -> state 41
+State 30: 0X0X00XX11 -> state 47
+State 30: 0X0X01000X -> state 41
+State 30: 0X0X010010 -> state 41
+State 30: 0X0X010011 -> state 47
+State 30: 0X0X01010X -> state 53
+State 30: 0X0X010110 -> state 53
+State 30: 0X0X010111 -> state 63
+State 30: 0X0X01100X -> state 41
+State 30: 0X0X011010 -> state 41
+State 30: 0X0X011011 -> state 47
+State 30: 0X0X01110X -> state 54
+State 30: 0X0X011110 -> state 54
+State 30: 0X0X011111 -> state 64
+State 30: 0X0X1XXXXX -> state 8
+State 30: 0X1000XX0X -> state 42
+State 30: 0X1000XX10 -> state 42
+State 30: 0X1000XX11 -> state 48
+State 30: 0X1001000X -> state 42
+State 30: 0X10010010 -> state 42
+State 30: 0X10010011 -> state 48
+State 30: 0X1001010X -> state 55
+State 30: 0X10010110 -> state 55
+State 30: 0X10010111 -> state 65
+State 30: 0X1001100X -> state 42
+State 30: 0X10011010 -> state 42
+State 30: 0X10011011 -> state 48
+State 30: 0X1001110X -> state 56
+State 30: 0X10011110 -> state 56
+State 30: 0X10011111 -> state 66
+State 30: 0X101XXXXX -> state 8
+State 30: 0X11XXXXXX -> state 8
+State 30: 1X0X00XX0X -> state 43
+State 30: 1X0X00XX10 -> state 43
+State 30: 1X0X00XX11 -> state 47
+State 30: 1X0X01000X -> state 43
+State 30: 1X0X010010 -> state 43
+State 30: 1X0X010011 -> state 47
+State 30: 1X0X01010X -> state 57
+State 30: 1X0X010110 -> state 57
+State 30: 1X0X010111 -> state 63
+State 30: 1X0X01100X -> state 43
+State 30: 1X0X011010 -> state 43
+State 30: 1X0X011011 -> state 47
+State 30: 1X0X01110X -> state 54
+State 30: 1X0X011110 -> state 54
+State 30: 1X0X011111 -> state 64
+State 30: 1X0X1XXXXX -> state 8
+State 30: 1X1000XX0X -> state 44
+State 30: 1X1000XX10 -> state 44
+State 30: 1X1000XX11 -> state 48
+State 30: 1X1001000X -> state 44
+State 30: 1X10010010 -> state 44
+State 30: 1X10010011 -> state 48
+State 30: 1X1001010X -> state 58
+State 30: 1X10010110 -> state 58
+State 30: 1X10010111 -> state 65
+State 30: 1X1001100X -> state 44
+State 30: 1X10011010 -> state 44
+State 30: 1X10011011 -> state 48
+State 30: 1X1001110X -> state 56
+State 30: 1X10011110 -> state 56
+State 30: 1X10011111 -> state 66
+State 30: 1X101XXXXX -> state 8
+State 30: 1X11XXXXXX -> state 8
+State 31: 0X0X00XXXX -> state 41
+State 31: 0X0X01X0XX -> state 41
+State 31: 0X0X01X1XX -> state 54
+State 31: 0X0X1XXXXX -> state 8
+State 31: 0X1000XXXX -> state 42
+State 31: 0X1001X0XX -> state 42
+State 31: 0X1001X1XX -> state 56
+State 31: 0X101XXXXX -> state 8
+State 31: 0X11XXXXXX -> state 8
+State 31: 1X0X00XXXX -> state 43
+State 31: 1X0X01X0XX -> state 43
+State 31: 1X0X01X1XX -> state 54
+State 31: 1X0X1XXXXX -> state 8
+State 31: 1X1000XXXX -> state 44
+State 31: 1X1001X0XX -> state 44
+State 31: 1X1001X1XX -> state 56
+State 31: 1X101XXXXX -> state 8
+State 31: 1X11XXXXXX -> state 8
+State 32: 0X0X00XX0X -> state 41
+State 32: 0X0X00XX10 -> state 41
+State 32: 0X0X00XX11 -> state 47
+State 32: 0X0X01X00X -> state 41
+State 32: 0X0X01X010 -> state 41
+State 32: 0X0X01X011 -> state 47
+State 32: 0X0X01X10X -> state 54
+State 32: 0X0X01X110 -> state 54
+State 32: 0X0X01X111 -> state 64
+State 32: 0X0X1XXXXX -> state 8
+State 32: 0X1000XX0X -> state 42
+State 32: 0X1000XX10 -> state 42
+State 32: 0X1000XX11 -> state 48
+State 32: 0X1001X00X -> state 42
+State 32: 0X1001X010 -> state 42
+State 32: 0X1001X011 -> state 48
+State 32: 0X1001X10X -> state 56
+State 32: 0X1001X110 -> state 56
+State 32: 0X1001X111 -> state 66
+State 32: 0X101XXXXX -> state 8
+State 32: 0X11XXXXXX -> state 8
+State 32: 1X0X00XX0X -> state 43
+State 32: 1X0X00XX10 -> state 43
+State 32: 1X0X00XX11 -> state 47
+State 32: 1X0X01X00X -> state 43
+State 32: 1X0X01X010 -> state 43
+State 32: 1X0X01X011 -> state 47
+State 32: 1X0X01X10X -> state 54
+State 32: 1X0X01X110 -> state 54
+State 32: 1X0X01X111 -> state 64
+State 32: 1X0X1XXXXX -> state 8
+State 32: 1X1000XX0X -> state 44
+State 32: 1X1000XX10 -> state 44
+State 32: 1X1000XX11 -> state 48
+State 32: 1X1001X00X -> state 44
+State 32: 1X1001X010 -> state 44
+State 32: 1X1001X011 -> state 48
+State 32: 1X1001X10X -> state 56
+State 32: 1X1001X110 -> state 56
+State 32: 1X1001X111 -> state 66
+State 32: 1X101XXXXX -> state 8
+State 32: 1X11XXXXXX -> state 8
+State 33: 0X0X0XXXXX -> state 41
+State 33: 0X0X1XXXXX -> state 8
+State 33: 0X1XXXXXXX -> state 8
+State 33: 1X0X0XXXXX -> state 43
+State 33: 1X0X1XXXXX -> state 8
+State 33: 1X1XXXXXXX -> state 8
+State 34: 0X0X0XXX0X -> state 41
+State 34: 0X0X0XXX10 -> state 41
+State 34: 0X0X0XXX11 -> state 47
+State 34: 0X0X1XXXXX -> state 8
+State 34: 0X1XXXXXXX -> state 8
+State 34: 1X0X0XXX0X -> state 43
+State 34: 1X0X0XXX10 -> state 43
+State 34: 1X0X0XXX11 -> state 47
+State 34: 1X0X1XXXXX -> state 8
+State 34: 1X1XXXXXXX -> state 8
+State 35: 0X0X00XXXX -> state 41
+State 35: 0X0X0100XX -> state 41
+State 35: 0X0X0101XX -> state 53
+State 35: 0X0X0110XX -> state 41
+State 35: 0X0X0111XX -> state 54
+State 35: 0X0X1XXXXX -> state 8
+State 35: 0X1XXXXXXX -> state 8
+State 35: 1X0X00XXXX -> state 43
+State 35: 1X0X0100XX -> state 43
+State 35: 1X0X0101XX -> state 57
+State 35: 1X0X0110XX -> state 43
+State 35: 1X0X0111XX -> state 54
+State 35: 1X0X1XXXXX -> state 8
+State 35: 1X1XXXXXXX -> state 8
+State 36: 0X0X00XX0X -> state 41
+State 36: 0X0X00XX10 -> state 41
+State 36: 0X0X00XX11 -> state 47
+State 36: 0X0X01000X -> state 41
+State 36: 0X0X010010 -> state 41
+State 36: 0X0X010011 -> state 47
+State 36: 0X0X01010X -> state 53
+State 36: 0X0X010110 -> state 53
+State 36: 0X0X010111 -> state 63
+State 36: 0X0X01100X -> state 41
+State 36: 0X0X011010 -> state 41
+State 36: 0X0X011011 -> state 47
+State 36: 0X0X01110X -> state 54
+State 36: 0X0X011110 -> state 54
+State 36: 0X0X011111 -> state 64
+State 36: 0X0X1XXXXX -> state 8
+State 36: 0X1XXXXXXX -> state 8
+State 36: 1X0X00XX0X -> state 43
+State 36: 1X0X00XX10 -> state 43
+State 36: 1X0X00XX11 -> state 47
+State 36: 1X0X01000X -> state 43
+State 36: 1X0X010010 -> state 43
+State 36: 1X0X010011 -> state 47
+State 36: 1X0X01010X -> state 57
+State 36: 1X0X010110 -> state 57
+State 36: 1X0X010111 -> state 63
+State 36: 1X0X01100X -> state 43
+State 36: 1X0X011010 -> state 43
+State 36: 1X0X011011 -> state 47
+State 36: 1X0X01110X -> state 54
+State 36: 1X0X011110 -> state 54
+State 36: 1X0X011111 -> state 64
+State 36: 1X0X1XXXXX -> state 8
+State 36: 1X1XXXXXXX -> state 8
+State 37: 0X0X00XXXX -> state 41
+State 37: 0X0X01X0XX -> state 41
+State 37: 0X0X01X1XX -> state 54
+State 37: 0X0X1XXXXX -> state 8
+State 37: 0X1XXXXXXX -> state 8
+State 37: 1X0X00XXXX -> state 43
+State 37: 1X0X01X0XX -> state 43
+State 37: 1X0X01X1XX -> state 54
+State 37: 1X0X1XXXXX -> state 8
+State 37: 1X1XXXXXXX -> state 8
+State 38: 0X0X00XX0X -> state 41
+State 38: 0X0X00XX10 -> state 41
+State 38: 0X0X00XX11 -> state 47
+State 38: 0X0X01X00X -> state 41
+State 38: 0X0X01X010 -> state 41
+State 38: 0X0X01X011 -> state 47
+State 38: 0X0X01X10X -> state 54
+State 38: 0X0X01X110 -> state 54
+State 38: 0X0X01X111 -> state 64
+State 38: 0X0X1XXXXX -> state 8
+State 38: 0X1XXXXXXX -> state 8
+State 38: 1X0X00XX0X -> state 43
+State 38: 1X0X00XX10 -> state 43
+State 38: 1X0X00XX11 -> state 47
+State 38: 1X0X01X00X -> state 43
+State 38: 1X0X01X010 -> state 43
+State 38: 1X0X01X011 -> state 47
+State 38: 1X0X01X10X -> state 54
+State 38: 1X0X01X110 -> state 54
+State 38: 1X0X01X111 -> state 64
+State 38: 1X0X1XXXXX -> state 8
+State 38: 1X1XXXXXXX -> state 8
+State 39: 00XX0XXXXX -> state 39
+State 39: 00XX1XXXXX -> state 8
+State 39: 01XX0XXXXX -> state 41
+State 39: 01XX1XXXXX -> state 8
+State 39: 10XX0XXXXX -> state 39
+State 39: 10XX1XXXXX -> state 8
+State 39: 11XX0XXXXX -> state 43
+State 39: 11XX1XXXXX -> state 8
+State 40: 00X00XXXXX -> state 40
+State 40: 00X01XXXXX -> state 8
+State 40: 00X1XXXXXX -> state 8
+State 40: 01X00XXXXX -> state 42
+State 40: 01X01XXXXX -> state 8
+State 40: 01X1XXXXXX -> state 8
+State 40: 10X00XXXXX -> state 40
+State 40: 10X01XXXXX -> state 8
+State 40: 10X1XXXXXX -> state 8
+State 40: 11X00XXXXX -> state 44
+State 40: 11X01XXXXX -> state 8
+State 40: 11X1XXXXXX -> state 8
+State 41: 0XXX0XXXXX -> state 41
+State 41: 0XXX1XXXXX -> state 8
+State 41: 1XXX0XXXXX -> state 43
+State 41: 1XXX1XXXXX -> state 8
+State 42: 0XX00XXXXX -> state 42
+State 42: 0XX01XXXXX -> state 8
+State 42: 0XX1XXXXXX -> state 8
+State 42: 1XX00XXXXX -> state 44
+State 42: 1XX01XXXXX -> state 8
+State 42: 1XX1XXXXXX -> state 8
+State 43: 0XXX0XXXXX -> state 41
+State 43: 0XXX1XXXXX -> state 8
+State 43: 1XXX0XXXXX -> state 43
+State 43: 1XXX1XXXXX -> state 8
+State 44: 0XX00XXXXX -> state 42
+State 44: 0XX01XXXXX -> state 8
+State 44: 0XX1XXXXXX -> state 8
+State 44: 1XX00XXXXX -> state 44
+State 44: 1XX01XXXXX -> state 8
+State 44: 1XX1XXXXXX -> state 8
+State 45: 00XX0XXXX0 -> state 39
+State 45: 00XX0XXXX1 -> state 45
+State 45: 00XX1XXXXX -> state 8
+State 45: 01XX0XXXX0 -> state 41
+State 45: 01XX0XXXX1 -> state 47
+State 45: 01XX1XXXXX -> state 8
+State 45: 10XX0XXXX0 -> state 39
+State 45: 10XX0XXXX1 -> state 45
+State 45: 10XX1XXXXX -> state 8
+State 45: 11XX0XXXX0 -> state 43
+State 45: 11XX0XXXX1 -> state 47
+State 45: 11XX1XXXXX -> state 8
+State 46: 00X00XXXX0 -> state 40
+State 46: 00X00XXXX1 -> state 46
+State 46: 00X01XXXXX -> state 8
+State 46: 00X1XXXXXX -> state 8
+State 46: 01X00XXXX0 -> state 42
+State 46: 01X00XXXX1 -> state 48
+State 46: 01X01XXXXX -> state 8
+State 46: 01X1XXXXXX -> state 8
+State 46: 10X00XXXX0 -> state 40
+State 46: 10X00XXXX1 -> state 46
+State 46: 10X01XXXXX -> state 8
+State 46: 10X1XXXXXX -> state 8
+State 46: 11X00XXXX0 -> state 44
+State 46: 11X00XXXX1 -> state 48
+State 46: 11X01XXXXX -> state 8
+State 46: 11X1XXXXXX -> state 8
+State 47: 0XXX0XXXX0 -> state 41
+State 47: 0XXX0XXXX1 -> state 47
+State 47: 0XXX1XXXXX -> state 8
+State 47: 1XXX0XXXX0 -> state 43
+State 47: 1XXX0XXXX1 -> state 47
+State 47: 1XXX1XXXXX -> state 8
+State 48: 0XX00XXXX0 -> state 42
+State 48: 0XX00XXXX1 -> state 48
+State 48: 0XX01XXXXX -> state 8
+State 48: 0XX1XXXXXX -> state 8
+State 48: 1XX00XXXX0 -> state 44
+State 48: 1XX00XXXX1 -> state 48
+State 48: 1XX01XXXXX -> state 8
+State 48: 1XX1XXXXXX -> state 8
+State 49: 00XX00XXXX -> state 39
+State 49: 00XX010XXX -> state 49
+State 49: 00XX011XXX -> state 50
+State 49: 00XX1XXXXX -> state 8
+State 49: 01XX00XXXX -> state 41
+State 49: 01XX010XXX -> state 53
+State 49: 01XX011XXX -> state 54
+State 49: 01XX1XXXXX -> state 8
+State 49: 10XX00XXXX -> state 39
+State 49: 10XX010XXX -> state 49
+State 49: 10XX011XXX -> state 50
+State 49: 10XX1XXXXX -> state 8
+State 49: 11XX00XXXX -> state 43
+State 49: 11XX010XXX -> state 57
+State 49: 11XX011XXX -> state 54
+State 49: 11XX1XXXXX -> state 8
+State 50: 00XX00XXXX -> state 39
+State 50: 00XX01XXXX -> state 50
+State 50: 00XX1XXXXX -> state 8
+State 50: 01XX00XXXX -> state 41
+State 50: 01XX01XXXX -> state 54
+State 50: 01XX1XXXXX -> state 8
+State 50: 10XX00XXXX -> state 39
+State 50: 10XX01XXXX -> state 50
+State 50: 10XX1XXXXX -> state 8
+State 50: 11XX00XXXX -> state 43
+State 50: 11XX01XXXX -> state 54
+State 50: 11XX1XXXXX -> state 8
+State 51: 00X000XXXX -> state 40
+State 51: 00X0010XXX -> state 51
+State 51: 00X0011XXX -> state 52
+State 51: 00X01XXXXX -> state 8
+State 51: 00X1XXXXXX -> state 8
+State 51: 01X000XXXX -> state 42
+State 51: 01X0010XXX -> state 55
+State 51: 01X0011XXX -> state 56
+State 51: 01X01XXXXX -> state 8
+State 51: 01X1XXXXXX -> state 8
+State 51: 10X000XXXX -> state 40
+State 51: 10X0010XXX -> state 51
+State 51: 10X0011XXX -> state 52
+State 51: 10X01XXXXX -> state 8
+State 51: 10X1XXXXXX -> state 8
+State 51: 11X000XXXX -> state 44
+State 51: 11X0010XXX -> state 58
+State 51: 11X0011XXX -> state 56
+State 51: 11X01XXXXX -> state 8
+State 51: 11X1XXXXXX -> state 8
+State 52: 00X000XXXX -> state 40
+State 52: 00X001XXXX -> state 52
+State 52: 00X01XXXXX -> state 8
+State 52: 00X1XXXXXX -> state 8
+State 52: 01X000XXXX -> state 42
+State 52: 01X001XXXX -> state 56
+State 52: 01X01XXXXX -> state 8
+State 52: 01X1XXXXXX -> state 8
+State 52: 10X000XXXX -> state 40
+State 52: 10X001XXXX -> state 52
+State 52: 10X01XXXXX -> state 8
+State 52: 10X1XXXXXX -> state 8
+State 52: 11X000XXXX -> state 44
+State 52: 11X001XXXX -> state 56
+State 52: 11X01XXXXX -> state 8
+State 52: 11X1XXXXXX -> state 8
+State 53: 0XXX00XXXX -> state 41
+State 53: 0XXX010XXX -> state 53
+State 53: 0XXX011XXX -> state 54
+State 53: 0XXX1XXXXX -> state 8
+State 53: 1XXX00XXXX -> state 43
+State 53: 1XXX010XXX -> state 57
+State 53: 1XXX011XXX -> state 54
+State 53: 1XXX1XXXXX -> state 8
+State 54: 0XXX00XXXX -> state 41
+State 54: 0XXX01XXXX -> state 54
+State 54: 0XXX1XXXXX -> state 8
+State 54: 1XXX00XXXX -> state 43
+State 54: 1XXX01XXXX -> state 54
+State 54: 1XXX1XXXXX -> state 8
+State 55: 0XX000XXXX -> state 42
+State 55: 0XX0010XXX -> state 55
+State 55: 0XX0011XXX -> state 56
+State 55: 0XX01XXXXX -> state 8
+State 55: 0XX1XXXXXX -> state 8
+State 55: 1XX000XXXX -> state 44
+State 55: 1XX0010XXX -> state 58
+State 55: 1XX0011XXX -> state 56
+State 55: 1XX01XXXXX -> state 8
+State 55: 1XX1XXXXXX -> state 8
+State 56: 0XX000XXXX -> state 42
+State 56: 0XX001XXXX -> state 56
+State 56: 0XX01XXXXX -> state 8
+State 56: 0XX1XXXXXX -> state 8
+State 56: 1XX000XXXX -> state 44
+State 56: 1XX001XXXX -> state 56
+State 56: 1XX01XXXXX -> state 8
+State 56: 1XX1XXXXXX -> state 8
+State 57: 0XXX00XXXX -> state 41
+State 57: 0XXX010XXX -> state 53
+State 57: 0XXX011XXX -> state 54
+State 57: 0XXX1XXXXX -> state 8
+State 57: 1XXX00XXXX -> state 43
+State 57: 1XXX010XXX -> state 57
+State 57: 1XXX011XXX -> state 54
+State 57: 1XXX1XXXXX -> state 8
+State 58: 0XX000XXXX -> state 42
+State 58: 0XX0010XXX -> state 55
+State 58: 0XX0011XXX -> state 56
+State 58: 0XX01XXXXX -> state 8
+State 58: 0XX1XXXXXX -> state 8
+State 58: 1XX000XXXX -> state 44
+State 58: 1XX0010XXX -> state 58
+State 58: 1XX0011XXX -> state 56
+State 58: 1XX01XXXXX -> state 8
+State 58: 1XX1XXXXXX -> state 8
+State 59: 00XX00XXX0 -> state 39
+State 59: 00XX00XXX1 -> state 45
+State 59: 00XX010XX0 -> state 49
+State 59: 00XX010XX1 -> state 59
+State 59: 00XX011XX0 -> state 50
+State 59: 00XX011XX1 -> state 60
+State 59: 00XX1XXXXX -> state 8
+State 59: 01XX00XXX0 -> state 41
+State 59: 01XX00XXX1 -> state 47
+State 59: 01XX010XX0 -> state 53
+State 59: 01XX010XX1 -> state 63
+State 59: 01XX011XX0 -> state 54
+State 59: 01XX011XX1 -> state 64
+State 59: 01XX1XXXXX -> state 8
+State 59: 10XX00XXX0 -> state 39
+State 59: 10XX00XXX1 -> state 45
+State 59: 10XX010XX0 -> state 49
+State 59: 10XX010XX1 -> state 59
+State 59: 10XX011XX0 -> state 50
+State 59: 10XX011XX1 -> state 60
+State 59: 10XX1XXXXX -> state 8
+State 59: 11XX00XXX0 -> state 43
+State 59: 11XX00XXX1 -> state 47
+State 59: 11XX010XX0 -> state 57
+State 59: 11XX010XX1 -> state 63
+State 59: 11XX011XX0 -> state 54
+State 59: 11XX011XX1 -> state 64
+State 59: 11XX1XXXXX -> state 8
+State 60: 00XX00XXX0 -> state 39
+State 60: 00XX00XXX1 -> state 45
+State 60: 00XX01XXX0 -> state 50
+State 60: 00XX01XXX1 -> state 60
+State 60: 00XX1XXXXX -> state 8
+State 60: 01XX00XXX0 -> state 41
+State 60: 01XX00XXX1 -> state 47
+State 60: 01XX01XXX0 -> state 54
+State 60: 01XX01XXX1 -> state 64
+State 60: 01XX1XXXXX -> state 8
+State 60: 10XX00XXX0 -> state 39
+State 60: 10XX00XXX1 -> state 45
+State 60: 10XX01XXX0 -> state 50
+State 60: 10XX01XXX1 -> state 60
+State 60: 10XX1XXXXX -> state 8
+State 60: 11XX00XXX0 -> state 43
+State 60: 11XX00XXX1 -> state 47
+State 60: 11XX01XXX0 -> state 54
+State 60: 11XX01XXX1 -> state 64
+State 60: 11XX1XXXXX -> state 8
+State 61: 00X000XXX0 -> state 40
+State 61: 00X000XXX1 -> state 46
+State 61: 00X0010XX0 -> state 51
+State 61: 00X0010XX1 -> state 61
+State 61: 00X0011XX0 -> state 52
+State 61: 00X0011XX1 -> state 62
+State 61: 00X01XXXXX -> state 8
+State 61: 00X1XXXXXX -> state 8
+State 61: 01X000XXX0 -> state 42
+State 61: 01X000XXX1 -> state 48
+State 61: 01X0010XX0 -> state 55
+State 61: 01X0010XX1 -> state 65
+State 61: 01X0011XX0 -> state 56
+State 61: 01X0011XX1 -> state 66
+State 61: 01X01XXXXX -> state 8
+State 61: 01X1XXXXXX -> state 8
+State 61: 10X000XXX0 -> state 40
+State 61: 10X000XXX1 -> state 46
+State 61: 10X0010XX0 -> state 51
+State 61: 10X0010XX1 -> state 61
+State 61: 10X0011XX0 -> state 52
+State 61: 10X0011XX1 -> state 62
+State 61: 10X01XXXXX -> state 8
+State 61: 10X1XXXXXX -> state 8
+State 61: 11X000XXX0 -> state 44
+State 61: 11X000XXX1 -> state 48
+State 61: 11X0010XX0 -> state 58
+State 61: 11X0010XX1 -> state 65
+State 61: 11X0011XX0 -> state 56
+State 61: 11X0011XX1 -> state 66
+State 61: 11X01XXXXX -> state 8
+State 61: 11X1XXXXXX -> state 8
+State 62: 00X000XXX0 -> state 40
+State 62: 00X000XXX1 -> state 46
+State 62: 00X001XXX0 -> state 52
+State 62: 00X001XXX1 -> state 62
+State 62: 00X01XXXXX -> state 8
+State 62: 00X1XXXXXX -> state 8
+State 62: 01X000XXX0 -> state 42
+State 62: 01X000XXX1 -> state 48
+State 62: 01X001XXX0 -> state 56
+State 62: 01X001XXX1 -> state 66
+State 62: 01X01XXXXX -> state 8
+State 62: 01X1XXXXXX -> state 8
+State 62: 10X000XXX0 -> state 40
+State 62: 10X000XXX1 -> state 46
+State 62: 10X001XXX0 -> state 52
+State 62: 10X001XXX1 -> state 62
+State 62: 10X01XXXXX -> state 8
+State 62: 10X1XXXXXX -> state 8
+State 62: 11X000XXX0 -> state 44
+State 62: 11X000XXX1 -> state 48
+State 62: 11X001XXX0 -> state 56
+State 62: 11X001XXX1 -> state 66
+State 62: 11X01XXXXX -> state 8
+State 62: 11X1XXXXXX -> state 8
+State 63: 0XXX00XXX0 -> state 41
+State 63: 0XXX00XXX1 -> state 47
+State 63: 0XXX010XX0 -> state 53
+State 63: 0XXX010XX1 -> state 63
+State 63: 0XXX011XX0 -> state 54
+State 63: 0XXX011XX1 -> state 64
+State 63: 0XXX1XXXXX -> state 8
+State 63: 1XXX00XXX0 -> state 43
+State 63: 1XXX00XXX1 -> state 47
+State 63: 1XXX010XX0 -> state 57
+State 63: 1XXX010XX1 -> state 63
+State 63: 1XXX011XX0 -> state 54
+State 63: 1XXX011XX1 -> state 64
+State 63: 1XXX1XXXXX -> state 8
+State 64: 0XXX00XXX0 -> state 41
+State 64: 0XXX00XXX1 -> state 47
+State 64: 0XXX01XXX0 -> state 54
+State 64: 0XXX01XXX1 -> state 64
+State 64: 0XXX1XXXXX -> state 8
+State 64: 1XXX00XXX0 -> state 43
+State 64: 1XXX00XXX1 -> state 47
+State 64: 1XXX01XXX0 -> state 54
+State 64: 1XXX01XXX1 -> state 64
+State 64: 1XXX1XXXXX -> state 8
+State 65: 0XX000XXX0 -> state 42
+State 65: 0XX000XXX1 -> state 48
+State 65: 0XX0010XX0 -> state 55
+State 65: 0XX0010XX1 -> state 65
+State 65: 0XX0011XX0 -> state 56
+State 65: 0XX0011XX1 -> state 66
+State 65: 0XX01XXXXX -> state 8
+State 65: 0XX1XXXXXX -> state 8
+State 65: 1XX000XXX0 -> state 44
+State 65: 1XX000XXX1 -> state 48
+State 65: 1XX0010XX0 -> state 58
+State 65: 1XX0010XX1 -> state 65
+State 65: 1XX0011XX0 -> state 56
+State 65: 1XX0011XX1 -> state 66
+State 65: 1XX01XXXXX -> state 8
+State 65: 1XX1XXXXXX -> state 8
+State 66: 0XX000XXX0 -> state 42
+State 66: 0XX000XXX1 -> state 48
+State 66: 0XX001XXX0 -> state 56
+State 66: 0XX001XXX1 -> state 66
+State 66: 0XX01XXXXX -> state 8
+State 66: 0XX1XXXXXX -> state 8
+State 66: 1XX000XXX0 -> state 44
+State 66: 1XX000XXX1 -> state 48
+State 66: 1XX001XXX0 -> state 56
+State 66: 1XX001XXX1 -> state 66
+State 66: 1XX01XXXXX -> state 8
+State 66: 1XX1XXXXXX -> state 8
+
+ANALYSIS
+A counter-example of least length (1) is:
+P0              X 0
+P1              X 0
+P2              X X
+P3              X 0
+P4              X 0
+P5              X 0
+P6              X X
+P7              X X
+P8              X X
+P9              X 0
+
+P0 = {}
+P1 = {}
+P2 = {}
+P3 = {}
+P4 = {}
+P5 = {}
+P6 = {}
+P7 = {}
+P8 = {}
+P9 = {}
+
+A satisfying example of least length (1) is:
+P0              X 0
+P1              X 0
+P2              X X
+P3              X 0
+P4              X 1
+P5              X X
+P6              X X
+P7              X X
+P8              X X
+P9              X X
+
+P0 = {}
+P1 = {}
+P2 = {}
+P3 = {}
+P4 = {0}
+P5 = {}
+P6 = {}
+P7 = {}
+P8 = {}
+P9 = {}
+
+Total time: 00:00:00.00

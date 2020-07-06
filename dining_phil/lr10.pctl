@@ -1,0 +1,14 @@
+// deadlock freeness
+filter(forall, "hungry" => P>=1 [ F "eat"])
+
+// no resource starvation
+filter(forall, "hungry1" => P>=1 [ F "eat1"])
+filter(forall, "hungry2" => P>=1 [ F "eat2"])
+filter(forall, "hungry3" => P>=1 [ F "eat3"])
+filter(forall, "hungry4" => P>=1 [ F "eat4"])
+filter(forall, "hungry5" => P>=1 [ F "eat5"])
+filter(forall, "hungry6" => P>=1 [ F "eat6"])
+filter(forall, "hungry7" => P>=1 [ F "eat7"])
+filter(forall, "hungry8" => P>=1 [ F "eat8"])
+filter(forall, "hungry9" => P>=1 [ F "eat9"])
+filter(forall, "hungry10" => P>=1 [ F "eat10"])

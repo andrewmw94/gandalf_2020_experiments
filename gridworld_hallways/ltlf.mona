@@ -1,0 +1,7 @@
+#(F loca) & (F locb) & (F locc) & (F locd) & (F loce) & (F locf) & (F locg) & (F loch) & (F loci) & (G !zbad)
+#(! ((((((((((! (F loca)) || (! (F locb))) || (! (F locc))) || (! (F locd))) || (! (F loce))) || (! (F locf))) || (! (F locg))) || (! (F loch))) || (! (F loci))) || (F zbad)))
+#NNF format
+#((((((((((F loca) && (F locb)) && (F locc)) && (F locd)) && (F loce)) && (F locf)) && (F locg)) && (F loch)) && (F loci)) && (G (! zbad)))
+m2l-str;
+var2 LOCA, LOCB, LOCC, LOCD, LOCE, LOCF, LOCG, LOCH, LOCI, ZBAD;
+(((all1 x1: ((0 <= x1) => (~((x1 in ZBAD)))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCI))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCH))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCG))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCF))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCE))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCD))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCC))))) & ((((ex1 x1: (0 <= x1 & ((x1 in LOCB))))) & ((ex1 x1: (0 <= x1 & ((x1 in LOCA))))))))))))))))))))));

@@ -1,0 +1,1 @@
+alive & ((F(alive & G(!alive | !robotwin)) & F(alive & x46)) | (X(alive & !x120) & F(alive & x6)) | F(alive & x165) | (G(!alive | !x111) & F(alive & x127) & X(alive & !x12)) | (X(alive & !x36) & G(!alive | !x102))) & (alive U G!alive)

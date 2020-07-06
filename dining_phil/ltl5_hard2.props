@@ -1,0 +1,1 @@
+alive & ((F(alive & eat1) & F(alive & eat2) & F(alive & eat3) & F(alive & eat4) & F(alive & eat5)) | ((((eat1 U (alive & eat2)) U (alive & eat3)) U (alive & eat4)) U (alive & eat5)) | (eat1 U (alive & (eat2 U (alive & (eat3 U (alive & (eat4 U (alive & eat5))))))))) & (alive U G!alive)

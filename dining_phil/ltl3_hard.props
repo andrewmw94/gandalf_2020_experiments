@@ -1,0 +1,1 @@
+Pmax =? ["exec_alive" & ((("eat1" U ("exec_alive" & "eat2")) U ("exec_alive" & "eat3")) | ("eat1" U ("exec_alive" & ("eat2" U ("exec_alive" & (G (F "eat3"))))))) & ("exec_alive" U (G !"exec_alive"))];

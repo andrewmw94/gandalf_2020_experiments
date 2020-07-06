@@ -1,0 +1,4 @@
+#! /bin/bash
+#Used so we can measure construction and loading separately.
+cp spot_exported_automata.hoa "$2"
+
