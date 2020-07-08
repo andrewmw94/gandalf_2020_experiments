@@ -8,5 +8,9 @@ Running the LTL pipeline takes some effort, as formulas must be converted from L
 3. ltlfilt removes quotes so you need to add these to make PRISM parse the LTL spec. Also, PRISM reserves "alive" so you must replace it with another name e.g.: (!"done")
 4. Run PRISM on the LTL spec and a modified MDP that, at every state, includes an action with probability 1 of transitioning to the terminal state.
 
+
+
 ### Help
 Feel free to reach out with any questions or issues you have running the examples.
+
+These should allow you to reproduce all experiments contained in our paper (with small modifications, e.g., changing the grid size).
