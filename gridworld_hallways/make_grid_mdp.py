@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-
+print_LTL_game = True
 
 obstacle_cells = [[3,0], [3,1], [3,3], [3,4], [3,5], [3,6], [3,7], [3,8], [5,2], [5,3], [5,4], [5,5], [5,6], [5,7], [5,8], [5,9], [7,0], [7,1], [7,3], [7,4], [7,5], [7,6], [7,7], [7,8]]
 
@@ -137,7 +137,10 @@ print("mdp")
 print("")
 print("module M1")
 print("")
-print("    x : [0..{}] init 0;".format(num_rows*num_cols))
+if print_LTL_game:
+    print("    x : [0..{}] init 0;".format(num_rows*num_cols))
+else:
+    print("    x : [0..{}] init 0;".format(num_rows*num_cols-1))
 
 #print inner cells
 for i in range (num_rows):
@@ -148,10 +151,11 @@ for i in range (num_rows):
         printEast(i,j)
         printWest(i,j)
 
-print("")
-for i in range (num_rows*num_cols):
-    print("[] x={} -> 1:(x'={});".format(i, num_rows*num_cols))
-print("[] x={} -> 1:(x'={});".format(num_rows*num_cols, num_rows*num_cols))
+if print_LTL_game:
+    print("")
+    for i in range (num_rows*num_cols):
+        print("[] x={} -> 1:(x'={});".format(i, num_rows*num_cols))
+    print("[] x={} -> 1:(x'={});".format(num_rows*num_cols, num_rows*num_cols))
 
 print("")
 print("endmodule")
