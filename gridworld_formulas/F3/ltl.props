@@ -1,0 +1,1 @@
+Pmax =? [ ! "done" & (F(! "done" & "loca")) & (F(! "done" & "locb")) & (F(! "done" & "locc")) & (G(!! "done" | ! "bad")) & (! "done" U (G!! "done")) ];
